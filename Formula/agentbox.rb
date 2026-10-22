@@ -1,7 +1,6 @@
 class Agentbox < Formula
   desc "One container per coding-agent session on a remote Docker host"
   homepage "https://github.com/novibe-org/agentbox"
-  version "0.2.1"
   license "Apache-2.0"
 
   on_macos do
