@@ -8,11 +8,12 @@ on:
 jobs:
   test:
     strategy:
+      fail-fast: false
       matrix:
-        os: [macos-latest, macos-13, ubuntu-latest]
+        os: [macos-latest, macos-15-intel, ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: Homebrew/actions/setup-homebrew@master
+      - uses: Homebrew/actions/setup-homebrew@0fdc2c96a16d9f945f7e1577784302fd27a549a9 # main
       - run: brew audit --formula novibe-org/tap/agentbox
       - run: brew install --formula novibe-org/tap/agentbox
       - run: brew test novibe-org/tap/agentbox
