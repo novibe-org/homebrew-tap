@@ -5,19 +5,19 @@ class Agentbox < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/novibe-org/agentbox/releases/download/v0.2.1/agentbox-darwin-arm64"
-      sha256 "42bfe0f39faf055fce7b1c009d55e27dac3e5c8db91a99ae4c9ed6ff46454f2b"
+      url "https://github.com/novibe-org/agentbox/releases/download/v0.3.0/agentbox-darwin-arm64"
+      sha256 "f6e6e148231173bb331513b42708a8abfd3b80bda844f61e4ac2f5fd248a3d72"
     end
     on_intel do
-      url "https://github.com/novibe-org/agentbox/releases/download/v0.2.1/agentbox-darwin-x64"
-      sha256 "e268fe7bb59c9b393e915667189a719aedb6afe6ea055db3381f67679ece8db9"
+      url "https://github.com/novibe-org/agentbox/releases/download/v0.3.0/agentbox-darwin-x64"
+      sha256 "d22fbb78eae917c3eb0fff84184a36e4d6e6941e03cbd88adf56a0b1db1e9b8f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/novibe-org/agentbox/releases/download/v0.2.1/agentbox-linux-x64"
-      sha256 "9e5418718c420ecad643ac4ebd9b0c22f0ccda21801c136e7d19f779cb28da05"
+      url "https://github.com/novibe-org/agentbox/releases/download/v0.3.0/agentbox-linux-x64"
+      sha256 "10fcb99ffa23388220b20096085f3fdd23d975be9997d1e4437f5c28b3c07940"
     end
   end
 
